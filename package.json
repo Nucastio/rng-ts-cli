@@ -1,0 +1,28 @@
+{
+  "name": "rng-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json --outDir dist",
+    "start": "tsc -p ./tsconfig.json --outDir dist && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^9.2.23",
+    "lucid-cardano": "^0.10.7",
+    "ora": "^8.0.1",
+    "rng-ts-lib": "^1.2.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
